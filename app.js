@@ -10,3 +10,6 @@ app.post('/', function (req, res) {
     console.log(address);
     res.send(address);
 });
+app.get('/', (req,res) => {
+    res.send('Welcome to Daily Code Buffer in Heroku Auto Deployment!!');
+})
