@@ -10,7 +10,3 @@ app.post('/', function (req, res) {
     console.log(address);
     res.send(address);
 });
-
-app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`);
-})
